@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
                         TopAppBar(
                             title = { Text(text = "Welcome Android App!!") },
                             colors = TopAppBarDefaults.topAppBarColors(
-                                containerColor = Color.Blue,
+                                containerColor = Color.DarkGray,
                                 titleContentColor = Color.White,
                             )
                         )
@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
                     bottomBar = {
                         BottomAppBar(
                             modifier = Modifier.fillMaxWidth(),
-                            containerColor = Color.Blue
+                            containerColor = Color.DarkGray
                         ) {
                             Text(
                                 text = "Made by Ashton",
@@ -103,7 +103,7 @@ fun AppUI() {
                 isVisible3 = false
             },
             modifier = Modifier.padding(bottom = 16.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color.Black)
+            colors = ButtonDefaults.buttonColors(containerColor = Color.Red)
         ) {
             Icon(
                 modifier = Modifier
@@ -138,7 +138,7 @@ fun AppUI() {
                 isVisible3 = false
             },
             modifier = Modifier.padding(bottom = 16.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color.Black)
+            colors = ButtonDefaults.buttonColors(containerColor = Color.Blue)
         ) {
             Icon(
                 modifier = Modifier
@@ -173,7 +173,7 @@ fun AppUI() {
                 isVisible2 = false
             },
             modifier = Modifier.padding(bottom = 16.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color.Black)
+            colors = ButtonDefaults.buttonColors(containerColor = Color.Green)
         ) {
             Icon(
                 modifier = Modifier
